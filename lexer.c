@@ -407,7 +407,6 @@ Token getToken(FILE *fonte) {
         }
     }
 
-    /* cabô */
     strcpy(token.nome, "EOF");
     token.linha = linha;
     token.coluna = coluna;
